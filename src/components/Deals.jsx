@@ -28,8 +28,8 @@ const Deals = () => {
           </h1>
         </div>
         <div className="md:flex block gap-3">
-          {Deals.map(({ heading, price, description }) => (
-            <Deal heading={heading} price={price} description={description} />
+          {Deals.map(({ heading, price, description, index }) => (
+            <Deal key={index} heading={heading} price={price} description={description} />
           ))}
         </div>
       </div>

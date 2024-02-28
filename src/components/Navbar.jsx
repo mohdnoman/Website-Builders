@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex gap-8 mt-1 ">
           <div className="text-gray-400 hidden md:block">Categories</div>
           <div className="text-gray-400 hidden md:block">Website builders</div>
-          <div className="text-gray-400 hidden md:block">Today's deals</div>
+          <div className="text-gray-400 hidden md:block">Today&apos;s deals</div>
         </div>
       </div>
     </div>
