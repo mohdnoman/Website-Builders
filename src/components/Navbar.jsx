@@ -5,14 +5,14 @@ import { UilBars } from "@iconscout/react-unicons";
 const Navbar = () => {
   return (
     <div className="w-full h-[42px] md:h-[64px] bg-[#212731]">
-      <div className="container py-2 pl-2 md:py-5 md:pl-64 flex gap-10 ">
+      <div className="container py-2 sm:pt-3  pl-5 md:py-5 md:pl-64 flex gap-10 ">
         <div className="relative">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
             <UilSearch color="gray" size="20" />
           </div>
           <input
             type="text"
-            className="pl-10 md:pr-3 rounded-md outline-none h-6 md:h-8"
+            className="md:pl-10 md:pr-3 rounded-md outline-none h-6 md:h-8"
           />
         </div>
 
